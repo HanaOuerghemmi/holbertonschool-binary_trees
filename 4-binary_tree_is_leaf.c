@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_is_leaf - function inserts the left-child of another node
+ * binary_tree_is_leaf - function checks if a node is a leaf
  * @node: node
  * Return:  a pointer to the new node or null on failleure
  */
