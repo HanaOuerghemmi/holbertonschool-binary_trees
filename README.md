@@ -94,84 +94,6 @@ Height from 128: 1
 Height from 54: 0
 ```
 ## 📂  What our file stand for:
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 10-binary_tree_depth.c 10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 11-binary_tree_size.c 11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 
-11-size
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 12-binary_tree_leaves.c 12-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 
-12-leaves
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 13-binary_tree_nodes.c 13-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 
-13-nodes
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 14-binary_tree_balance.c 14-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c 1-binary_tree_insert_left.c -o 14-balance
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 15-binary_tree_is_full.c 15-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 15-full
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 16-binary_tree_is_perfect.c 16-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 16-perfect
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 17-main.c 17-binary_tree_sibling.c 0-binary_tree_node.c -o 17-sibling
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 18-main.c 18-binary_tree_uncle.c 0-binary_tree_node.c -o 18-uncle
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 2-main.c 2-binary_tree_insert_right.c 0-binary_tree_node.c -o 2-right
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 3-main.c 3-binary_tree_delete.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 3-del
-```
-Compiler :
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
- gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 4-binary_tree_is_leaf.c 4-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 4-leaf
- ```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 5-binary_tree_is_root.c 5-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 5-root
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o 6-pre
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 7-main.c 7-binary_tree_inorder.c 0-binary_tree_node.c -o 7-in
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post
-```
-Compiler : 
-```{r mon_bloc, echo = FALSE, WARNING = TRUE}
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
-```
 
 | file                       :|  What our file stand for		        	                       |	compiler 		|
 | :-------------------        |:-------------------------------------------------------------------|-----------------:	|
@@ -190,7 +112,7 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 9-binary_tree_height.c 9
 |6-binary_tree_preorder.c	  |a function that goes through a binary tree using pre-order traversal|gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o 6-pre			        |                    | 
 |7-binary_tree_inorder.c	  |a function that goes through a binary tree using in-order traversal  |gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 7-main.c 7-binary_tree_inorder.c 0-binary_tree_node.c -o 7-in
                               |                                                                     |                     |
-|8-binary_tree_postorder.c	  |a function that goes through a binary tree using post-order traversal|		 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post			|
+|8-binary_tree_postorder.c	  |a function that goes through a binary tree using post-order traversal|		 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post			     |
 |9-binary_tree_height.c		  |a function that measures the height of a binary tree|		7FA		  |                 |
 |10-binary_tree_depth.c		  |a function that measures the depth of a node in a binary tree		  |		 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
 		|
