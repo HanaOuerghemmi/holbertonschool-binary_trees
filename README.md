@@ -176,8 +176,8 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 9-binary_tree_height.c 9
 | file                       :|  What our file stand for		        	                       |	compiler 		|
 | :-------------------        |:-------------------------------------------------------------------|-----------------:	|
 |0-binary_tree_node.c         |a function that creates a binary tree node                          |gcc -Wall -Wextra -Werror-pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
-```			                  |
-|1-binary_tree_insert_left.c  |a function that inserts a node as the left-child of another node	      |	gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left
+         	                  |
+|1-binary_tree_insert_left.c  |a function that inserts a node as the left-child of another node	   |gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left
 		                      |
 |2-binary_tree_insert_right.c | a function that inserts a node as the right-child of another node     |		100			|	
 |3-binary_tree_delete.c		  |	a function that deletes an entire binary tree		                  |		100			|
