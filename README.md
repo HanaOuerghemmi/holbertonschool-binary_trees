@@ -173,22 +173,23 @@ Compiler :
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
 ```
 
-| file                       :|  What our file stand for		        	|	compiler 		|
-| :-------------------        |:--------------------------------------------|-----------------:	|
-|0-binary_tree_node.c         |a function that creates a binary tree node   |```{r mon_bloc, echo = FALSE, WARNING = TRUE} gcc -Wall -Wextra -Werror-pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
+| file                       :|  What our file stand for		        	                       |	compiler 		|
+| :-------------------        |:-------------------------------------------------------------------|-----------------:	|
+|0-binary_tree_node.c         |a function that creates a binary tree node                          |gcc -Wall -Wextra -Werror-pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
 ```			                  |
-|1-binary_tree_insert_left.c  |a function that inserts a node as the left-child of another node	   |	Hello		    |
-|2-binary_tree_insert_right.c | a function that inserts a node as the right-child of another node  |		100			|	
-|3-binary_tree_delete.c		  |	a function that deletes an entire binary tree		               |		100			|
-|4-binary_tree_is_leaf.c	  | a function that checks if a node is a leaf	                       |		%			|
-|5-binary_tree_is_root.c	  |a function that checks if a given node is a root				       |		1010		|
-|6-binary_tree_preorder.c	  |a function that goes through a binary tree using pre-order traversal|		100			|
-|7-binary_tree_inorder.c	  |a function that goes through a binary tree using in-order traversal |		1142		|
-|8-binary_tree_postorder.c	  |a function that goes through a binary tree using post-order traversal|		7fa			|
-|9-binary_tree_height.c		  |a function that measures the height of a binary tree|		7FA		|
-|10-binary_tree_depth.c		  |a function that measures the depth of a node in a binary tree		|		olleh		|
-|11-binary_tree_size.c		  |a function that measures the size of a binary tree					|		H			|
-|12-binary_tree_leaves.c 	  |Stringa function that counts the leaves in a binary tree				|		Hello		|
+|1-binary_tree_insert_left.c  |a function that inserts a node as the left-child of another node	      |	gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left
+		                      |
+|2-binary_tree_insert_right.c | a function that inserts a node as the right-child of another node     |		100			|	
+|3-binary_tree_delete.c		  |	a function that deletes an entire binary tree		                  |		100			|
+|4-binary_tree_is_leaf.c	  | a function that checks if a node is a leaf	                          |		%			|
+|5-binary_tree_is_root.c	  |a function that checks if a given node is a root				          |		1010		|
+|6-binary_tree_preorder.c	  |a function that goes through a binary tree using pre-order traversal   |		100			|
+|7-binary_tree_inorder.c	  |a function that goes through a binary tree using in-order traversal    |		1142		|
+|8-binary_tree_postorder.c	  |a function that goes through a binary tree using post-order traversal  |		7fa			|
+|9-binary_tree_height.c		  |a function that measures the height of a binary tree|		7FA		  |                 |
+|10-binary_tree_depth.c		  |a function that measures the depth of a node in a binary tree		  |		olleh		|
+|11-binary_tree_size.c		  |a function that measures the size of a binary tree					  |		H			|
+|12-binary_tree_leaves.c 	  |Stringa function that counts the leaves in a binary tree				  |		Hello		|
 |13-binary_tree_nodes.c		  |a function that counts the nodes with at least 1 child in a binary tree|		100			|	
 |14-binary_tree_balance.c	  |a function that measures the balance factor of a binary tree			  |		100			|
 |15-binary_tree_is_full.c	  |a function that checks if a binary tree is full                   	  |	%			    |
