@@ -13,7 +13,7 @@
 	<span> · </span>
 	<a href="##Important Terms">Important Terms</a>
 	<span> · </span>
-	<a href="### 🖥 type of trees:">Types Of binary trees</a>
+	<a href="###type of trees">Types Of binary trees</a>
 
 </h3>
 
