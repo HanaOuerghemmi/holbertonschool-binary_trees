@@ -6,6 +6,10 @@
 <p align="center">
 	<b><i>HOLBERTON SCHOOL BINARY TREE</i></b><br>
 </p>
+<p align="center">
+	<img ="binary tree" src="binary_tree.jpeg"/>
+
+</p>
 <h3 align="center">
 	<a href="#Description">Description</a>
 	<span> · </span>
@@ -18,6 +22,10 @@
 ---
 
 ## 💡 a binary tree:
+<p algin="center">
+	<img ="binary tree" src="subtree.png"/>
+
+</p>
 
 In our Holberton school group project pair programing we work on and understanding `A BINARY TREE`,
 
