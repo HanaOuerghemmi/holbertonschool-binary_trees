@@ -9,11 +9,11 @@
 
 </p>
 <h3 align="center">
-	<a href="#Description">Description</a>
+	<a href="##Description">Description</a>
 	<span> · </span>
-	<a href="#Compilation-and-testing">Testing</a>
+	<a href="##Important Terms">Important Terms</a>
 	<span> · </span>
-	<a href="#EXEMPLE">EXEMPLE</a>
+	<a href="### 🖥 type of trees:">Types Of binary trees</a>
 
 </h3>
 
