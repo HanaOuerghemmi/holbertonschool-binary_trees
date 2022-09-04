@@ -32,7 +32,7 @@ In our Holberton school group project pair programing we work on and understandi
 
 ## 📝 Important Terms:
  
-###Root:
+#### Root:
 The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 
 <strong> parent  </strong> Any node except the root node has one edge upward to a node called parent.
@@ -100,10 +100,15 @@ Height from 54: 0
 ```
 ## 📂  What our file stand for:
 
-| file                       :|  What our file stand for		        	                       |	compiler 		|
-| :-------------------        |:-------------------------------------------------------------------|-----------------:	|
-|0-binary_tree_node.c         |a function that creates a binary tree node                          |gcc -Wall -Wextra -Werror-pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
-|         	                  |                                                                    |                    |
+| file                       :|  What our file stand for		        	                       |	compiler 	                     	|
+| :-------------------        |:-------------------------------------------------------------------|-------------------------------------: 	|
+|0-binary_tree_node.c         |a function that creates a binary tree node                          |```
+																								   |gcc -Wall -Wextra -Werror-pedantic bin																								        	 |ary_tree_print.c 0-main.c 
+																								   |0-binary_tree_node.c -o 0-node
+|         	                  |                                                                     ```
+
+
+
 |1-binary_tree_insert_left.c  |a function that inserts a node as the left-child of another node	   |gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left
 		                      |                                                                    |                    |
 |2-binary_tree_insert_right.c | a function that inserts a node as the right-child of another node  |gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 2-main.c 2-binary_tree_insert_right.c 0-binary_tree_node.c -o 2-right
