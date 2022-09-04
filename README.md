@@ -81,7 +81,10 @@ Connection between one node to another.
 
 
 ### 🖥 type of trees:
- 
+ <p algin="center">
+	<img ="binary tree " src="treeType.png"/>
+</p>
+
 #### Binary tree is full:
 is a tree in which every node has either 0 or 2 children.
  
