@@ -94,7 +94,10 @@ is a binary tree structure in which the left and right subtrees of every node di
 
 
 #### Binary Search Tree: 
-	<img ="binary tree search" src="search.jpg"/>
+<p algin="center">
+
+<img ="binary tree search" src="search.jpg"/>
+</p>
 A binary Search Tree is a node-based binary tree data structure which has the following properties: The left subtree of a node contains only nodes with keys lesser than the node's key. The right subtree of a node contains only nodes with keys greater than the node's key.
 
 ### 🖥 EXEMPLE
