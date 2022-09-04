@@ -1,5 +1,3 @@
-# holbertonschool-binary_trees
-
 <h1 align="center">
 	✏️ C - binary tree
 </h1>
@@ -34,9 +32,9 @@ In our Holberton school group project pair programing we work on and understandi
 
 ## 📝 Important Terms:
 <p> 
-<strong> Root </strong> The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
-</p>
-<p> 
+### Root
+The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
+
 <strong> parent  </strong> Any node except the root node has one edge upward to a node called parent.
 </p>
 <p> 
