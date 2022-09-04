@@ -62,6 +62,8 @@ Leaves in 54: 1
 
 #### Subtree:
 
+It is defined as the tree that is a direct descendant of a node. Take note that the term highlights the fact that anything that is a descendant of a tree node is itself a tree, as well as a subset of the bigger tree, which is referred to as the root node.
+
 #### Depth of the node:
 The `depth` of a node is the number of edges present in path from the root node of a tree to that node.
 ```
@@ -111,13 +113,54 @@ Is 128 full: 0
 
 
 #### Binary tree is perfect 
+
 is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+```
+hana@hana-Vostro-3500:~/holbertonschool-binary_trees$ ./16-perfect
+       .-------(098)-------.
+  .--(012)--.         .--(128)--.
+(010)     (054)     (010)     (402)
+Perfect: 1
+
+       .-------(098)-------.
+  .--(012)--.         .--(128)-------.
+(010)     (054)     (010)       .--(402)
+                              (010)
+Perfect: 0
+
+       .-------(098)-------.
+  .--(012)--.         .--(128)-------.
+(010)     (054)     (010)       .--(402)--.
+                              (010)     (010)
+Perfect: 0
+
+```
+
 #### Binary tree is complete 
 is a binary tree in which every level, except possibly the last, is comilled, and all nodes in the last level are as far left as possible.
 #### Binary tree is balanced 
 is a binary tree structure in which the left and right subtrees of every node differ in height by no more than 1
+```
+hana@hana-Vostro-3500:~/holbertonschool-binary_trees$ ./16-perfect 
+       .-------(098)-------.
+  .--(012)--.         .--(128)--.
+(010)     (054)     (010)     (402)
+Perfect: 1
 
+       .-------(098)-------.
+  .--(012)--.         .--(128)-------.
+(010)     (054)     (010)       .--(402)
+                              (010)
+Perfect: 0
 
+       .-------(098)-------.
+  .--(012)--.         .--(128)-------.
+(010)     (054)     (010)       .--(402)--.
+                              (010)     (010)
+Perfect: 0
+
+```
+I
 #### Binary Search Tree: 
 <p algin="center">
 	<img ="binary tree search" src="search.jpg"/>
