@@ -22,16 +22,15 @@
 ---
 
 ## 💡 a binary tree:
-<p algin="center">
-	<img ="binary tree" src="subtree.png"/>
-
-</p>
-
 In our Holberton school group project pair programing we work on and understanding `A BINARY TREE`,
 
 ## 📝 Description: 
 
 `a binary tree`  is a tree data structure where each node has up to two child nodes, creating the branches of the tree. The two children are usually called the left and right nodes. Parent nodes are nodes with children, while child nodes may include references to their parents.
+<p algin="center">
+	<img ="binary tree" src="Subtree.png"/>
+</p>
+
 
 ## 📝 Important Terms:
 <p> 
