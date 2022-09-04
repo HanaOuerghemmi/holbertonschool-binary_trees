@@ -35,57 +35,65 @@ In our Holberton school group project pair programing we work on and understandi
 #### Root:
 The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 
-<strong> parent  </strong> Any node except the root node has one edge upward to a node called parent.
+#### Parent:
+Any node except the root node has one edge upward to a node called parent.
 
-<p> 
-<strong> Child </strong> The node below a given node connected by its edge downward is called its child node.
-</p>
-<p> 
-<strong> Grandparents  </strong> A grandparent of a node is the parent of its parent.
-</p>
-<p> 
-<strong> Uncle </strong> the child of grandparents
-</p>
-<p> 
-<strong> Cousins </strong> the child of uncle if it exists.
-</p>
-<p> 
-<strong> Siblings </strong> Nodes with the same parent.
-</p>
-<p> 
-<strong> Leaf </strong> The node which does not have any child node is called the leaf node.
-</p>
-<p> 
-<strong> Ancestor </strong> a node that is at the upper level of the given node.
-</p>
-<p> 
-<strong> Subtree </strong> Subtree represents the descendants of a node.
-</p>
-<p> 
-<strong> Depth of the nodes </strong> The depth of a node is the number of edges from the node to the tree's root node.
-</p>
-<p> 
-<strong> Height of the node </strong> The height of a node is the number of edges on the longest downward path between that node and a leaf
-</p>
-<p> 
-<strong> Edge </strong> Connection between one node to another.
-</p>
+ 
+#### Child: 
+The node below a given node connected by its edge downward is called its child node.
+ 
+#### Grandparents:  
+A grandparent of a node is the parent of its parent.
+ 
+#### Uncle:
+ the child of grandparents
+ 
+#### Cousins:
+the child of uncle if it exists. 
+#### Siblings:
+Nodes with the same parent.
+
+#### Leaf:
+The node which does not have any child node is called the leaf node.
+ 
+#### Ancestor:
+
+
+#### Subtree:
+
+#### Depth of the node:
+
+#### Height of the node:
+The height of a node is the number of edges on the longest downward path between that node and a leaf
+### 🖥 EXEMPLE
+```
+alex@/tmp/binary_trees$ ./9-height 
+  .-------(098)--.
+(012)--.       (128)--.
+     (054)          (402)
+Height from 98: 2
+Height from 128: 1
+Height from 54: 0
+```
+ 
+#### Edge: 
+Connection between one node to another.
+
 
 ### 🖥 type of trees:
-<p> 
-<strong> Binary tree is full </strong> is a tree in which every node has either 0 or 2 children.
-</p>
-<p> 
-<strong> Binary tree is perfect </strong> is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
-</p>
-<p> 
-<strong> Binary tree is complete </strong> is a binary tree in which every level, except possibly the last, is comilled, and all nodes in the last level are as far left as possible.
-</p>
-<p> 
-<strong> Binary tree is balanced </strong> is a binary tree structure in which the left and right subtrees of every node differ in height by no more than 1
-</p>
+ 
+#### Binary tree is full:
+is a tree in which every node has either 0 or 2 children.
+ 
+#### Binary tree is perfect 
+is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+#### Binary tree is complete 
+is a binary tree in which every level, except possibly the last, is comilled, and all nodes in the last level are as far left as possible.
+#### Binary tree is balanced 
+is a binary tree structure in which the left and right subtrees of every node differ in height by no more than 1
 
-### Binary Search Tree: 
+
+#### Binary Search Tree: 
 A binary Search Tree is a node-based binary tree data structure which has the following properties: The left subtree of a node contains only nodes with keys lesser than the node's key. The right subtree of a node contains only nodes with keys greater than the node's key.
 
 ### 🖥 EXEMPLE
@@ -115,8 +123,7 @@ Height from 54: 0
 |10-binary_tree_depth.c		  |a function that measures the depth of a node in a binary tree		  |	
 |11-binary_tree_size.c		  |a function that measures the size of a binary tree					  |	
 |12-binary_tree_leaves.c 	  |Stringa function that counts the leaves in a binary tree				  |
-|13-binary_tree_nodes.c		  |a function that counts the nodes with at least 1 child in a binary tree|		
-|	
+|13-binary_tree_nodes.c		  |a function that counts the nodes with at least 1 child in a binary tree|			
 |14-binary_tree_balance.c	  |a function that measures the balance factor of a binary tree			  |				
 |15-binary_tree_is_full.c	  |a function that checks if a binary tree is full                   	  |	    
 |16-binary_tree_is_perfect.c  |a function that checks if a binary tree is perfect					  | 
