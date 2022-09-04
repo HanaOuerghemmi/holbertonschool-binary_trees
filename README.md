@@ -100,12 +100,10 @@ Height from 54: 0
 ```
 ## 📂  What our file stand for:
 
-| file                       :|  What our file stand for		        	                       |	compiler 	                     	|
-| :-------------------        |:-------------------------------------------------------------------|-------------------------------------: 	|
-|0-binary_tree_node.c         |a function that creates a binary tree node                          |```
-																								   |gcc -Wall -Wextra -Werror-pedantic bin																								        	 |ary_tree_print.c 0-main.c 
-																								   |0-binary_tree_node.c -o 0-node
-|         	                  |                                                                     ```
+| file                       :|  What our file stand for		        	                       |	compiler 	                        	|
+| :-------------------        |:-----------------------------------------------|------------------------------------------------------------: 	|
+|0-binary_tree_node.c         |a function that creates a binary tree           |```gcc -Wall -Wextra -Werror-pedantic binary_tree_print.c 0-main.c|                             |                                                |0-binary_tree_node.c -o 0-node```
+
 
 
 
